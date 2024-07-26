@@ -8,12 +8,12 @@
   },
   "scripts": {
     "start": "node .",
-    "build": "tsc",
+    "build": "tsc && tsc-alias",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "debug": "tsc && NODE_OPTIONS=--inspect-brk node .",
     "clean": "rm -r dist",
-    "test": "mocha --require ts-node/register \"test/**/*.spec.ts\"",
+    "test": "mocha --require ts-node/register --require tsconfig-paths/register \"test/**/*.spec.ts\"",
     "test:watch": "mocha --require ts-node/register --watch-extensions ts --watch-files test --watch-files src --watch \"test/**/*.spec.ts\"",
     "test:debug": "NODE_OPTIONS=--inspect-brk mocha --require ts-node/register \"test/**/*.spec.ts\""
   },
@@ -30,6 +30,8 @@
     "eslint": "^8",
     "mocha": "^10",
     "ts-node": "^10",
+    "tsc-alias": "^1.8.10",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^5"
   }
 }

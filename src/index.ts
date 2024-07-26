@@ -1,4 +1,4 @@
-import FizzBuzz from 'utils/fizzbuzz'
+import FizzBuzz from '@/utils/fizzbuzz'
 
 const fizzbuzz = new FizzBuzz()
 for (let i = 1; i <= 20; i++) {

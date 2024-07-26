@@ -1,5 +1,5 @@
 import { assert } from 'chai'
-import FizzBuzz from 'utils/fizzbuzz'
+import FizzBuzz from '@/utils/fizzbuzz'
 
 describe('fizzbuzz Tests', () => {
   it("should return '5' for 1", () => {
