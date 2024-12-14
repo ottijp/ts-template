@@ -21,17 +21,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@eslint/js": "^9",
     "@types/chai": "^4",
     "@types/mocha": "^10",
     "@types/node": "^20",
-    "@typescript-eslint/eslint-plugin": "^6",
-    "@typescript-eslint/parser": "^6",
     "chai": "^4",
-    "eslint": "^8",
+    "eslint": "^9",
+    "globals": "^15",
     "mocha": "^10",
     "ts-node": "^10",
     "tsc-alias": "^1.8.10",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "typescript-eslint": "^8"
   }
 }
